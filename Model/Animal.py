@@ -1,5 +1,5 @@
 class Animal :
-    def __init__(self, legs, toothed, backbone, tail, breathes, feathers, milk,aquatic, fins, eggs):
+    def __init__(self, legs, toothed, backbone, tail, breathes, feathers, milk, aquatic, fins, eggs):
         self.milk = milk
         self.toothed = toothed
         self.eggs = eggs

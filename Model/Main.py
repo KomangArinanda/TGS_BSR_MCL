@@ -12,7 +12,7 @@ Swagger(app)
 @app.route('/predict/task', methods=['POST'])
 def predict():
     """
-    Ini Adalah Endpoint Untuk Memprediksi IRIS
+    Ini Adalah Endpoint Untuk Memprediksi Jenis Hewan
     ---
     tags:
         - Rest Controller
@@ -23,26 +23,56 @@ def predict():
         schema:
           id: Petal
           required:
-            - petalLength
-            - petalWidth
-            - sepalLength
-            - sepalWidth
+            - milk
+            - toothed
+            - eggs
+            - feathers
+            - backbone
+            - legs
+            - breathes
+            - tail
+            - fins
+            - aquatic
           properties:
-            petalLength:
+            milk:
               type: int
-              description: Please input with valid Sepal and Petal Length-Width.
+              description: Please input with value 0 or 1.
               default: 0
-            petalWidth:
+            toothed:
               type: int
-              description: Please input with valid Sepal and Petal Length-Width.
+              description: Please input with value 0 or 1.
               default: 0
-            sepalLength:
+            eggs:
               type: int
-              description: Please input with valid Sepal and Petal Length-Width.
+              description: Please input with value 0 or 1.
               default: 0
-            sepalWidth:
+            feathers:
               type: int
-              description: Please input with valid Sepal and Petal Length-Width.
+              description: Please input with value 0 or 1.
+              default: 0
+            backbone:
+              type: int
+              description: Please input with value 0 or 1.
+              default: 0
+            legs:
+              type: int
+              description: Please input with value 0, 2, 4, 6, or 8.
+              default: 0
+            breathes:
+              type: int
+              description: Please input with value 0 or 1.
+              default: 0
+            tail:
+              type: int
+              description: Please input with value 0 or 1.
+              default: 0
+            fins:
+              type: int
+              description: Please input with value 0 or 1.
+              default: 0
+            aquatic:
+              type: int
+              description: Please input with value 0 or 1.
               default: 0
     responses:
         200:
