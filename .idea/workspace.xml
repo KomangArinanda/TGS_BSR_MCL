@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3bc8052-bd05-4cda-abda-90502d0b3051" name="Default" comment="" />
+    <list default="true" id="b3bc8052-bd05-4cda-abda-90502d0b3051" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -85,6 +87,7 @@
       <list>
         <option value="$PROJECT_DIR$/Model/Animal.py" />
         <option value="$PROJECT_DIR$/Model/Main.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
@@ -98,7 +101,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -377,10 +380,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
