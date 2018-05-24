@@ -3,11 +3,12 @@ from flasgger import Swagger
 from sklearn.externals import joblib
 import numpy as np
 import pandas as pandas
+from flask_cors import CORS
 
 
 app = Flask(__name__)
 Swagger(app)
-# CORS(app)
+CORS(app)
 
 @app.route('/predict/task', methods=['POST'])
 def predict():
